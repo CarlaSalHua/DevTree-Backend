@@ -6,7 +6,7 @@ services:
     region: oregon
     buildCommand: npm install && npm run build
     startCommand: npm start
-    rootDir: server
+    rootDir: backend
     envVars:
       - key: MONGO_URI
         sync: false
